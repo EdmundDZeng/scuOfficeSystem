@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="office-mail" />
+        <module name="office-server" />
+        <module name="office-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="office-generator" target="1.8" />
+      <module name="office-mail" target="1.8" />
+      <module name="office-server" target="1.8" />
+      <module name="office-system" target="1.8" />
+      <module name="office_backend" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="office-generator" options="-parameters" />
+      <module name="office-mail" options="-parameters" />
+      <module name="office-server" options="-parameters" />
+      <module name="office_backend" options="-parameters" />
+    </option>
+  </component>
+</project>

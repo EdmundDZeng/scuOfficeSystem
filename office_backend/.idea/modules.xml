@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/office-generator/office-generator.iml" filepath="$PROJECT_DIR$/office-generator/office-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/office-mail/office-mail.iml" filepath="$PROJECT_DIR$/office-mail/office-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/office-server/office-server.iml" filepath="$PROJECT_DIR$/office-server/office-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/office-system.iml" filepath="$PROJECT_DIR$/office-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/office_backend.iml" filepath="$PROJECT_DIR$/office_backend.iml" />
+    </modules>
+  </component>
+</project>
